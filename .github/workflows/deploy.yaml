@@ -1,4 +1,4 @@
-on: [push]
+on: [workflow_dispatch]
 name: Azure Resource Manager
 jobs:
   build-and-deploy:
